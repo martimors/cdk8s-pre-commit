@@ -1,0 +1,10 @@
+-   id: cdk8s
+    name: cdk8s-cli
+    description: 'Pre-commit hook for cdk8s'
+    entry: cdk8s
+    language: node
+    'files': .*cdk8s\.ya?ml$
+    args: []
+    require_serial: false
+    additional_dependencies: ["cdk8s-cli@0.0.0"]
+    minimum_pre_commit_version: '0'
