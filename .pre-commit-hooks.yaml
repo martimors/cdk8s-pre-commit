@@ -6,5 +6,5 @@
     'files': .*cdk8s\.ya?ml$
     args: []
     require_serial: false
-    additional_dependencies: ["cdk8s-cli@0.13.0-pre.f9ee84a846bb7b7ee3de63e3bf29eb557a972efc"]
+    additional_dependencies: ["cdk8s-cli@0.13.0"]
     minimum_pre_commit_version: '0'
